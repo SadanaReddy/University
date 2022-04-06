@@ -37,6 +37,8 @@ import io.swagger.annotations.ApiResponses;
 public class FacultyController {
 
 	private static final Logger LOGGER=LoggerFactory.getLogger(FacultyController.class);
+			LOGGER.info("Request came into FacultyController");
+
 
 	@Autowired
 	private FacultyService facultyService;
